@@ -1,7 +1,11 @@
-const page = () => {
-  return (
-    <div>page</div>
-  )
-}
+import HelloWorld from "@/components/HelloWorld";
 
-export default page
+const HomePage = () => {
+  return (
+    <div>
+      <h1>HomePage</h1>
+      <HelloWorld />
+    </div>
+  );
+};
+export default HomePage;
